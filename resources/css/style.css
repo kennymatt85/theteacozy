@@ -2,15 +2,14 @@
 * {
   padding: 0;
   margin: 0;
-}
-
-body {
   font-family: Helvetica;
   font-size: 22px;
   color: seashell;
   background-color: black;
   opacity: 0.9;
+  text-align: center;
 }
+
 
 h2 {
   display: block;
@@ -53,6 +52,7 @@ h5 {
 }
 
 
+
 /*Flex IDs*/
 
 #flex {
@@ -67,7 +67,6 @@ h5 {
   justify-content: space-between;
   align-items: center;
   width: 100%;
-  background-color: black;
   z-index: 2;
 
 
@@ -95,8 +94,6 @@ nav a {
 
 .mission {
   width: 1200px;
-  text-align: center;
-  background-color: black;
 }
 
 .mission h2 {
@@ -113,7 +110,6 @@ nav a {
   top: 125px;
   flex-direction: column;
   align-items: center;
-  text-align: center;
 }
 
 .favourites .container {
@@ -136,4 +132,61 @@ nav a {
 
 .selection.margin {
   margin-right: 50px;
+}
+
+/*Locations*/
+.locations {
+  position: relative;
+  top: 185px;
+  flex-direction: column;
+  align-items: center;
+  height: 500px;
+  background: url("../images/img-locations-background.jpg") center no-repeat;
+}
+
+.locations h2 {
+  position: relative;
+  top: 75px;
+  margin: 0;
+}
+
+.locations h2, .locations .container {
+  background: transparent;
+}
+
+.locations .container {
+  justify-content: center;
+}
+
+.boxes {
+  display: flex;
+  position: relative;
+  top: 90px;
+  width: 300px;
+  height: 300px;
+  margin: 0px 20px;
+  opacity: 1;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.boxes h3, .boxes h4 {
+  margin: 0;
+}
+
+/*Contact*/
+
+.contact {
+  position: relative;
+  top: 185px;
+  height: 200px;
+}
+
+/*Footer*/
+
+.footer h5 {
+  position: relative;
+  top: 185px;
+  text-align: left;
+  margin-left: 20px;
 }
