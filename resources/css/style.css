@@ -89,4 +89,20 @@ nav a {
   top: 70px;
   height: 700px;
   background: url("../images/img-mission-background.jpg") center no-repeat;
+  align-items: center;
+  justify-content: center;
+}
+
+.mission {
+  width: 1200px;
+  text-align: center;
+  background-color: black;
+}
+
+.mission h2 {
+  margin-top: 10px;
+}
+
+.mission h4 {
+  margin-bottom: 10px;
 }
