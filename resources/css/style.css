@@ -61,6 +61,7 @@ h5 {
 
 /*Header*/
 .header {
+  display: flex;
   position: fixed;
   height: 69px;
   border-bottom: 1px solid seashell;
@@ -84,6 +85,7 @@ nav a {
 
 /*Banner*/
 .banner {
+  display: flex;
   position: relative;
   top: 70px;
   height: 700px;
@@ -106,17 +108,20 @@ nav a {
 
 /*Tea of the month*/
 .favourites {
+  display: flex;
   position: relative;
-  top: 125px;
+  top: 70px;
   flex-direction: column;
   align-items: center;
 }
 
 .favourites .container {
   width: 1000px;
+  margin: 45px 0;
 }
 
 .teas {
+  display: flex;
   flex-wrap: wrap;
   justify-content: center;
 }
@@ -136,12 +141,17 @@ nav a {
 
 /*Locations*/
 .locations {
+  display: flex;
   position: relative;
-  top: 185px;
+  top: 70px;
   flex-direction: column;
   align-items: center;
   height: 500px;
   background: url("../images/img-locations-background.jpg") center no-repeat;
+}
+
+.locations .container {
+  display: flex;
 }
 
 .locations h2 {
@@ -178,15 +188,16 @@ nav a {
 
 .contact {
   position: relative;
-  top: 185px;
+  top: 70px;
   height: 200px;
+
 }
 
 /*Footer*/
 
 .footer h5 {
   position: relative;
-  top: 185px;
+  top: 70px;
   text-align: left;
   margin-left: 20px;
 }
