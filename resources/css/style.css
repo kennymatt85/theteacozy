@@ -61,11 +61,16 @@ h5 {
 
 /*Header*/
 .header {
-  display: fixed;
+  position: fixed;
   height: 69px;
   border-bottom: 1px solid seashell;
   justify-content: space-between;
   align-items: center;
+  width: 100%;
+  background-color: black;
+  z-index: 2;
+
+
 }
 
 .logo img {
@@ -76,4 +81,12 @@ h5 {
 nav a {
   color: seashell;
   margin: 0 10px;
+}
+
+/*Banner*/
+.banner {
+  position: relative;
+  top: 70px;
+  height: 700px;
+  background: url("../images/img-mission-background.jpg") center no-repeat;
 }
